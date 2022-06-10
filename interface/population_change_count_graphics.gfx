@@ -1,0 +1,11 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_generic_box"
+		textureFile = "/gfx/interface/deport_gui_graphics/generic_box.dds"
+	}
+	spriteType = {
+		name = "GFX_BRA_population_icon"
+		textureFile = "/gfx/interface/deport_gui_graphics/BRA_population_icon.dds"
+	}
+}

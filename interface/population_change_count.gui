@@ -1,0 +1,36 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "population_change_count_gui_window"
+		
+		position = { x = 0 y = 0}
+		orientation = center
+		moveable = yes
+		clipping = no
+		
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_generic_box"
+		}
+
+		iconType ={
+			name ="BRA_population_icon"
+			spriteType = "GFX_BRA_population_icon"
+			position = { x= -2 y = -10 }
+			Orientation = "LEFT"
+		}	
+		
+		instantTextBoxType = {
+			name = "population_change_value"
+			position = { x= 30 y = 2 }
+			font = "hoi_18mbs"
+			text = "population_change_amount"
+			format = center
+			maxWidth = 65
+			maxHeight = 24
+			fixedsize = yes
+			
+			pdx_tooltip = "pop_tooltip"
+		}
+	}
+}

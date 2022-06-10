@@ -190,6 +190,7 @@ secret_police_oversight = {
 		enemy_operative_detection_chance_over_occupied_tag = 1 # offset detection chance by +1%
 		enemy_intel_network_gain_factor_over_occupied_tag = -0.25 # -25% scaled by the number of occupied states and the ratio of the network covering those occupied states
 		# todo + spy defense
+		state_monthly_population = -0.01
 	}
 	
 	available = {
@@ -313,6 +314,7 @@ forced_labor_occupation = {
 		local_resources 					= 0.25
 		local_factories 					= 0.05
 		repair_speed_infrastructure_factor 	= 0.25
+		state_monthly_population = -1.0
 		
 		custom_modifier_tooltip = "resource_sabotage_decrease_tooltip"
 	}
@@ -403,6 +405,7 @@ harsh_quotas_occupation = {
 
 		repair_speed_arms_factory_factor = 0.25
 		repair_speed_industrial_complex_factor = 0.25
+		state_monthly_population = -2.0
 		
 		custom_modifier_tooltip = "factory_sabotage_decrease_tooltip"
 	}
@@ -442,6 +445,7 @@ brutally_oppressive_occupation = {
 		local_manpower 					= -0.05
 		resistance_decay 				= 1.5
 		local_supplies_for_controller   = -0.12
+		state_monthly_population = -10.0
 
 	}
 	

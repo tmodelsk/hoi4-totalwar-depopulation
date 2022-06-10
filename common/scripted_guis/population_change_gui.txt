@@ -1,0 +1,35 @@
+scripted_gui = {
+  population_change_gui  = {
+    window_name = "population_change_count_gui_window"
+    context_type = player_context
+
+    visible = {
+		always = yes
+    }
+
+    effects = {
+    }
+
+    triggers = {
+    }
+
+    dynamic_lists = {
+	}
+
+    properties = {
+    }
+
+    ai_enabled = {
+		always = no
+    }
+
+    ai_check = {
+    }
+
+    ai_check_scope = {
+    }
+
+    ai_weights = {
+    }
+  }
+}

@@ -1,0 +1,5 @@
+﻿l_english:
+ state_monthly_population:0 "Changes the monthly population gain by"
+ state_monthly_population_test:0 "Test dynamic modifier"
+ population_change_amount:0 "[?population_count|§2]M"
+ pop_tooltip:0 "Number of people you have killed in your occupation"
